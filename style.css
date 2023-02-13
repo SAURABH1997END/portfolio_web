@@ -1,0 +1,345 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Container start Here */
+.container{
+    display: flex; /* display flex korla navbar bamdika and class main ja ta as6a sata dandika hoya jaba tarpor width set korta hoba  */
+
+}
+
+/* Sidebar edit Here */
+
+.sidebar{
+    position: absolute;/* Cross png image ta navbar ar satha Adjust kora naba nijaka */
+    background-color: rgb(42 33 33);
+    font-family: monospace;
+    /* width: 382px; */
+    height: 100vh;
+    transition: transform 0.1s ease-in; /*sidebar ta click korla khulba R Bandhu Hoba */
+}
+
+.sidebar nav{
+    padding: 38px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 13px;
+    padding: 26px 0px;
+    /* font-family: monospace; */
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Main content Edit Here */
+
+.main{
+    /* background-color: aqua; */
+    width: 90vw;
+    margin: 56px 62px;
+}
+
+/* INFOCONTAINER HERE */
+
+
+.infoContainer{
+    display: flex;
+    /* background-color: blue; */
+    height: 50vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 93px;
+    justify-content: space-around;
+}
+
+/* IMG EDIT */
+
+.devPic img{
+    height: 50vh; /*infoContainer and devPic image height same rakhta hoba*/
+}
+
+/* devinfo Edit */
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+/* devinfo ar modha classgulo k edit  */
+
+.hello{
+
+    font-size: 35px;
+    font-weight: bold;
+}
+.name{
+    font-size: 21px;
+}
+
+.about{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.moreabout{
+    font-size: 15px;
+    margin: 2px 2px;
+}
+.buttons{
+    /* border: 2px solid red; */
+    margin-top: 5px;
+    font-size: 15px; /*ata ho6a choto device ay set korar jono pora adjust kora hoya6a/*/
+}
+
+.buttons button{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(25, 0, 255);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 6px 5px;
+    font-family: monospace;
+    /* font-weight: bold; */
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: white;
+    background-color: black;
+}
+
+
+/* contactform Edit */
+.contactform h1{
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    font-family: monospace;
+}
+
+.contactform{
+    /* border: 2px solid black; */
+    padding: 0px 40px;
+    /* padding-top: 105px; */
+    margin:56px 88px ;
+}
+
+.contactform form div{
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0px;
+}
+.contactform form {
+ margin: 0px 30px; /*ata ho6a choto device ay set korar jono pora adjust kora hoya6a/* */
+}
+
+.contactform form div input {
+    border: 2px solid black;
+     /*width: 31vw; ata ho6a choto device ay set korar jono commentout kora hoya6a */
+    border-radius: 5px;
+    margin: 4px 2px;
+    padding: 5px;
+}
+
+#emailHelp{
+    color: blue;
+    font-size: 11px;
+    font-family: monospace;
+}
+
+#form-check{
+    /* border: 2px solid red; */
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 35px;
+    margin: 1px 0px;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 3px 9px;
+    border-radius: 5px;
+    margin: 7px 5px;
+    font-size: 15px;
+    font-family: monospace;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 0, 0);
+}
+
+/* BLOG ITEMS HERE */
+.blogitem{
+margin: 14px;
+}
+.blogContainer{
+    margin: 0px 88px;
+}
+
+.blogContainer h1{
+    font-size: 24px;
+    margin: 12px;
+    font-family: system-ui;
+}
+
+.blogitem p{
+font-family: monospace;
+font-size: 11px;
+}
+.blogitem h2{
+    font-size: 18px;
+}
+
+.btn1{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 4px 0px;
+    font-size: 10px;
+    font-family: system-ui;
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 255, 0);
+    cursor: pointer;
+}
+.btn1:hover{
+    color: white;
+    background-color: blue;
+}
+
+.int{
+margin: 12px;
+font-family: monospace;
+}
+
+.intro{
+    margin: 0px 88px;
+}
+
+.para{
+font-size: 12px;
+font-family: monospace;
+padding: 7px 7px;
+}
+
+.int2{
+margin: 12px;
+font-family: monospace;
+}
+
+.skillcontainer{
+    padding: 10px;
+}
+.skill{
+    /* width: 328px; */
+    height: 7px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.skillitem{
+    /* border: 2px solid red; */
+    font-size: 14px;
+    font-weight: 800;
+    font-family: monospace;
+    display: flex;
+   align-items: center; 
+}
+
+.hundred{
+    width: 300px;
+}
+.fifty{
+    width:200px;
+    background-color:greenyellow ;
+}
+.t5{
+    width: 100px;
+    background-color: rgb(0, 217, 255);
+}
+.t3{
+    width:200px;
+    background-color: rgb(25, 0, 255);
+}
+.ph{
+    width: 150px;
+    background-color: rgb(4, 7, 0);
+}
+
+@media (max-width: 1006px) {
+    
+    /* .sidebar{
+        transform: translate(-400px, 0px);
+        position: absolute;
+    } */
+
+    .devPic{
+        display: none; /*atar mana ho6a jakhon responsive small kora hoba takhon pic ta chola jaba*/
+    }
+    .intro, .blogContainer, .contactform{ /*Ai method ta use kora mana holo choto device margin adjust kora*/
+        margin: 40px 8px;
+    }
+
+    /* Download & cv button Edit Here */
+
+    .btn{
+        font-size: 5px;
+    }
+
+  
+
+    
+
+}
+
+
+/* HAMBURGER EDIT HERE */
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 13px;
+    left: 10px;
+    margin-top: 3px;
+    /* filter: invert(100%); */
+}
+
+.cross{
+    margin-left: 112px;
+    filter: invert(100%);
+    margin-top: 3px;
+}
+
+.sidebargo{
+    transform: translate(-400px, 0px);
+    position: absolute;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.black{
+    border: 2px solid black;
+    position: absolute;
+    top: 19px;
+    right: 32px;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-family: monospace;
+    cursor: pointer;
+}
